@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    Background: #f8f9fa; 
+    margin: 0 auto;   
+    
+}
+header{
+    background-color: #a0bed0;
+    /* font-size: ; */
+    display: flex;
+    justify-content: flex-end;
+    
+    }
+li{
+    display: inline-block;
+    font-size: 13px;
+    font-family: 'Varela Round', Arial, Helvetica, sans-serif;
+    color: #f8f9fa;
+    padding: 5px;
+        
+}
+section{
+    height: 150%;
+}
+.primeira_secao{
+    /* padding: 25%; */
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    height: 500px;
+    margin-top: -5%;
+    
+    
+    /* width: 100%; */
+}
+h2 {
+    /* background: -webkit-linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0)); */
+    background-image: Gradiente linear de (rgba(255, 255, 255, .9) até rgba(255, 255, 255, 0));
+    font-family:'nunito', Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    
+  
+}
+p{
+    font-size: 22px;
+    color:#f8f9fa;;
+}
+button{
+    background-color: #829dad;
+    /* box-shadow: 0 .1875rem .1875rem 0 rgba(0, 0, 0, .1)!important; */
+    padding: 1.25rem 2rem;
+    font-family: 'Varela Round';
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
+    margin: 10%;
+}
+footer{
+    background-color: gray; 
+    margin-top: -30%;
+    color: #829dad;
+}
+h3{
+   color: #829dad;
+}
+siberia{
+    background-image: url("../img/siberia.jpg");
+    font-family:'nunito', Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+}
